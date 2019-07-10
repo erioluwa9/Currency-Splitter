@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 2: JavaScript Language Basics</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+
+    <body><br><br>
+            
+        <form class="form-group">
+                
+            <div class="container jumbotron">
+                <div>                      
+                    <p class="text-center h1">Currency Splitter</p>
+                    <p class="text-center" id="date"></p> 
+                </div>
+                <marquee>Welcome...!!!</marquee>
+                <hr>
+                    <div class="float-right">
+                        <span class="btn btn-primary" id="name" class="float-right"></span>
+                    </div><br>
+
+                    <br>
+                <input type="number" id="inputNumber" class="form-control" placeholder="$Money Place" required> <br>
+
+                <div class="text-center h4 bold p5">
+                    <p>The Splited Money value: <span id="money">0</span></p>
+                </div>
+
+                <div class="float-left">
+                    <p class="p">The number for 1000 naira note(s) is <span id="hi1" class="">0</span></p>
+                    <p>The number for 500 naira note(s) is <span id="hi2">0</span></p>
+                    <p>The number for 200 naira note(s) is <span id="hi3">0</span></p>
+                    <p>The number for 100 naira note(s) is <span id="hi4">0</span></p>
+                    <p>The number for 50 naira note(s) is <span id="hi5">0</span></p>
+                    <p>The number for 20 naira note(s) is <span id="hi6">0</span></p>
+                    <p>The number for 10 naira note(s) is <span id="hi7">0</span></p>
+                    <p>The number for 5 naira note(s) is <span id="hi8">0</span></p>        
+                </div>
+                                
+                <br>
+                <button type="button" class="btn btn-lg btn-primary btn-block" onclick="changeMoney(document.getElementById('inputNumber').value)">Calculate</button>
+                </div>
+        </form>
+       
+    </body>
+    
+    <script src="./js/main.js"></script>
+</html>
